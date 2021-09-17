@@ -1,0 +1,12 @@
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\bin\Debug\net5.0\HospiEnCasa.App.Dominio.deps.json
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\bin\Debug\net5.0\HospiEnCasa.App.Dominio.dll
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\bin\Debug\net5.0\ref\HospiEnCasa.App.Dominio.dll
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\bin\Debug\net5.0\HospiEnCasa.App.Dominio.pdb
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\obj\Debug\net5.0\HospiEnCasa.App.Dominio.csproj.AssemblyReference.cache
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\obj\Debug\net5.0\HospiEnCasa.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\obj\Debug\net5.0\HospiEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\obj\Debug\net5.0\HospiEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\obj\Debug\net5.0\HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\obj\Debug\net5.0\HospiEnCasa.App.Dominio.dll
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\obj\Debug\net5.0\ref\HospiEnCasa.App.Dominio.dll
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\hospiencasa.app.dominio\obj\Debug\net5.0\HospiEnCasa.App.Dominio.pdb
