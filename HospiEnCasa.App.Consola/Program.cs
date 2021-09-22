@@ -6,7 +6,8 @@ namespace HospiEnCasa.App.Consola
 {
     class Program
     {
-        private static IRepositorioPaciente _repoPaciente= new RepositorioPaciente(new Persistencia.AppContext());
+        private static IRepositorioPaciente _repoPaciente= new RepositorioPaciente();
+    //    private static IRepositorioPaciente _repoPaciente= new RepositorioPaciente(new Persistencia.AppContext());
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");

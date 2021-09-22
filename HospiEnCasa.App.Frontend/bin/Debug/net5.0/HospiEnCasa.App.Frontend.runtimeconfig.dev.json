@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Heri\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Heri\\.nuget\\packages"
+    ]
+  }
+}

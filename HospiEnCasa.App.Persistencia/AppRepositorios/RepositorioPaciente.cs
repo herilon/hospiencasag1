@@ -5,13 +5,15 @@ namespace HospiEnCasa.App.Persistencia
 {
     public class RepositorioPaciente : IRepositorioPaciente
     {
+        private readonly AppContext _appContext = new AppContext();
+/*
         private readonly AppContext _appContext;
 
         public RepositorioPaciente(AppContext appContext)
         {
             _appContext = appContext;
         }
-
+*/
         public Paciente AddPaciente(Paciente paciente)
         {
             var pacienteAdicionado = _appContext.Pacientes.Add(paciente);
