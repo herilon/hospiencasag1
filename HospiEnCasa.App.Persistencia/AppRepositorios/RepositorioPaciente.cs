@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using HospiEnCasa.App.Dominio;
 
 namespace HospiEnCasa.App.Persistencia
@@ -6,14 +7,14 @@ namespace HospiEnCasa.App.Persistencia
     public class RepositorioPaciente : IRepositorioPaciente
     {
         private readonly AppContext _appContext = new AppContext();
-/*
-        private readonly AppContext _appContext;
+        /*
+                private readonly AppContext _appContext;
 
-        public RepositorioPaciente(AppContext appContext)
-        {
-            _appContext = appContext;
-        }
-*/
+                public RepositorioPaciente(AppContext appContext)
+                {
+                    _appContext = appContext;
+                }
+        */
         public Paciente AddPaciente(Paciente paciente)
         {
             var pacienteAdicionado = _appContext.Pacientes.Add(paciente);
@@ -58,5 +59,22 @@ namespace HospiEnCasa.App.Persistencia
             }
             return pacienteEncontrado;
         }
+
+        Medico IRepositorioPaciente.AsignarMedico(int idPaciente, int idMedico)
+        {
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
+            if (pacienteEncontrado != null)
+            {
+                var medicoEncontrado = _appContext.Medicos.FirstOrDefault(m => m.Id == idMedico);
+                if (medicoEncontrado != null)
+                {
+                    pacienteEncontrado.Medico = medicoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return medicoEncontrado;
+            }
+            return null;
+        }
+
     }
 }

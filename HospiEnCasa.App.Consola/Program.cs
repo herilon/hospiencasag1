@@ -6,16 +6,17 @@ namespace HospiEnCasa.App.Consola
 {
     class Program
     {
-        private static IRepositorioPaciente _repoPaciente= new RepositorioPaciente();
+        private static IRepositorioPaciente _repoPaciente = new RepositorioPaciente();
         private static IRepositorioMedico _repoMedico = new RepositorioMedico();
-    //    private static IRepositorioPaciente _repoPaciente= new RepositorioPaciente(new Persistencia.AppContext());
+        //    private static IRepositorioPaciente _repoPaciente= new RepositorioPaciente(new Persistencia.AppContext());
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             //AddPaciente();
             //BuscarPaciente(3);
             //MostrarPacientes();
-            AddMedico();
+            //AddMedico();
+            AsignarMedico();
         }
 
         private static void AddPaciente()
@@ -37,14 +38,14 @@ namespace HospiEnCasa.App.Consola
         private static void BuscarPaciente(int idPaciente)
         {
             var paciente = _repoPaciente.GetPaciente(idPaciente);
-            Console.WriteLine(paciente.Nombre+" "+paciente.Apellidos);
+            Console.WriteLine(paciente.Nombre + " " + paciente.Apellidos);
         }
         private static void MostrarPacientes()
         {
             var pacientes = _repoPaciente.GetAllPacientes();
             foreach (var paciente in pacientes)
             {
-                Console.WriteLine(paciente.Nombre+" "+paciente.Apellidos);
+                Console.WriteLine(paciente.Nombre + " " + paciente.Apellidos);
             }
         }
 
@@ -63,6 +64,11 @@ namespace HospiEnCasa.App.Consola
             _repoMedico.AddMedico(medico);
         }
 
+        private static void AsignarMedico()
+        {
+            var medico = _repoPaciente.AsignarMedico(2, 4);
+            Console.WriteLine(medico.Nombre + " " + medico.Apellidos);
+        }
 
     }
 }
