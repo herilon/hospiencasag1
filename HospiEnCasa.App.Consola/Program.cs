@@ -7,13 +7,15 @@ namespace HospiEnCasa.App.Consola
     class Program
     {
         private static IRepositorioPaciente _repoPaciente= new RepositorioPaciente();
+        private static IRepositorioMedico _repoMedico = new RepositorioMedico();
     //    private static IRepositorioPaciente _repoPaciente= new RepositorioPaciente(new Persistencia.AppContext());
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             //AddPaciente();
             //BuscarPaciente(3);
-            MostrarPacientes();
+            //MostrarPacientes();
+            AddMedico();
         }
 
         private static void AddPaciente()
@@ -45,6 +47,22 @@ namespace HospiEnCasa.App.Consola
                 Console.WriteLine(paciente.Nombre+" "+paciente.Apellidos);
             }
         }
+
+        private static void AddMedico()
+        {
+            var medico = new Medico
+            {
+                Nombre = "Francisco",
+                Apellidos = "Sanchez",
+                NumeroTelefono = "3001645",
+                Genero = Genero.Masculino,
+                Especialidad = "Internista",
+                Codigo = "1234abc",
+                RegistroRethus = "abc123"
+            };
+            _repoMedico.AddMedico(medico);
+        }
+
 
     }
 }
