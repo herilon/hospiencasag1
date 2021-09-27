@@ -15649,6 +15649,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Pages\\Pacientes\\Create.cshtml",
+      "TargetPath": "Pages\\Pacientes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Pages\\Pacientes\\Details.cshtml",
       "TargetPath": "Pages\\Pacientes\\Details.cshtml",
       "FileKind": "mvc"

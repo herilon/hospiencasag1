@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
 namespace HospiEnCasa.App.Dominio
 {
     /// <summary>Class <c>Paciente</c>
@@ -14,6 +16,7 @@ namespace HospiEnCasa.App.Dominio
         public float Longitud { get; set; }
         // Ciudad de residencia del Paciente
         public string Ciudad { get; set; }
+        [Display(Name = "Fecha de nacimiento")]
         public DateTime FechaNacimiento { get; set; }
         /// Relacion entre Paciente y su FamiliarDesignado para cuidarlo
         public FamiliarDesignado Familiar { get; set; }
