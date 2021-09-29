@@ -9,7 +9,14 @@ namespace HospiEnCasa.App.Dominio
     {
         // Identificador único de cada persona
         public int Id { get; set; }
+
+        [Required(ErrorMessage = "Campo obligatorio")]
+        [StringLength(50, ErrorMessage = "Longitad maxima 50")]
+
         public string Nombre { get; set; }
+        [Required(ErrorMessage = "Campo obligatorio")]
+        [StringLength(50, ErrorMessage = "Longitad maxima 50")]
+        
         public string Apellidos { get; set; }
         [Display(Name = "Número telefonico")]
         public string NumeroTelefono { get; set; }
