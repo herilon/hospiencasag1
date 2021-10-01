@@ -1,0 +1,30 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.Medicos.IndexModel
+@{
+}
+<h1>Listado de medicos</h1>
+<a class="btn btn-primary" asp-page="./Create">Nuevo medico</a>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var medico in Model.medicos)
+        {
+            <tr>
+                <th>@medico.Nombre</th>
+                <td>@medico.Apellidos</td>
+                <td>@medico.NumeroTelefono</td>
+                <td>
+                    <a class="btn btn-primary" asp-page="./Details" asp-route-id="@medico.Id">Detalle</a>
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@medico.Id">Modificar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

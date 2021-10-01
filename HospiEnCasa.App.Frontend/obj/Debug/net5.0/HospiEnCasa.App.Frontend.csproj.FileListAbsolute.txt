@@ -74,3 +74,4 @@ C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\HospiEnCa
 C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Pacientes\Details.cshtml.g.cs
 C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Pacientes\Create.cshtml.g.cs
 C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Pacientes\Edit.cshtml.g.cs
+C:\Heri\UdeC\Formacion\Ciclo 3\Grupo 1\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Medicos\Index.cshtml.g.cs
