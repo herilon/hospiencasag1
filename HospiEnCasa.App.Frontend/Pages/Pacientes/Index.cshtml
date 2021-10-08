@@ -1,7 +1,27 @@
 ﻿@page
+@using HospiEnCasa.App.Dominio
 @model HospiEnCasa.App.Frontend.Pages.Pacientes.IndexModel
 @{
 }
+<form method="get">
+    <div class="form-group">
+        <label for="g">Genero</label>
+        <select name="g" id="g" asp-for="@Model.gActual" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control">    
+            <option value="-1">Ver todos</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Filtrar</button>
+</form>
+
+<form method="get">
+    <div class="form-group">
+        <label for="b">Buscar</label>
+        <input name="b" id="b" asp-for="@Model.bActual" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+
 <h1>Listado de pacientes</h1>
 <a class="btn btn-primary" asp-page="./Create">Nuevo paciente</a>
 <table class="table">
