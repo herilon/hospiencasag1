@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Pages\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15649,6 +15654,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Pages\\Pacientes\\Edit.cshtml",
       "TargetPath": "Pages\\Pacientes\\Edit.cshtml",
       "FileKind": "mvc"
@@ -15659,6 +15669,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
@@ -15666,6 +15681,16 @@
     {
       "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Pages\\Pacientes\\AddSignoVital.cshtml",
       "TargetPath": "Pages\\Pacientes\\AddSignoVital.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15689,8 +15714,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Pages\\Pacientes\\Index.cshtml",
       "TargetPath": "Pages\\Pacientes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Heri\\UdeC\\Formacion\\Ciclo 3\\Grupo 1\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "FileKind": "mvc"
     }
   ],
